@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>MOTD</title>
+		<style>
+			body {
+				font-family: Helvetica, sans-serif;
+				background-color: black;
+				color: #888;
+				font-size: 1.2em;
+				padding: 8px;
+				margin: 0;
+			}
+
+			footer {
+				text-align: center;
+				font-size: 0.9em;
+			}
+
+			ul {
+				list-style: none;
+				margin: 0 auto;
+				padding: 0;
+				display: table;
+				border-collapse: separate;
+				border-spacing: 5px 0px;
+			}
+
+			li {
+				display: table-row;
+			}
+
+			li > span {
+				display: table-cell;
+				vertical-align: middle;
+			}
+
+			li > span:first-child {
+				width: 100px;
+			}
+
+			a {
+				color: #888;
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li><span><img src="health-kit-gray.png" alt="Health kit" width="100" height="100"></span><span>No health kits outside of the saferoom</span></li>
+			<li><span><img src="coach-gray.png" alt="Survivor" width="100" height="100"></span><span>Survival bonus is based on damage taken</span></li>
+			<li><span><img src="hunter-gray.png" alt="Special infected" width="100" height="100"></span><span>Spawn timers are set to 20 seconds</span></li>
+			<li><span><img src="ak47-gray.png" alt="Tier-2 weapon" width="100" height="100"></span><span>Tier-2 weapons are single-pickup</span></li>
+		</ul>
+		<footer><p>These changes only affect standard versus.</p><p>Images &copy; Valve Corp.</p></footer>
+	</body>
+</html>
